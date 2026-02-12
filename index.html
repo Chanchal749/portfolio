@@ -1,84 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Chanchal Singha | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chanchal Singha | Java Developer Portfolio</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+  <header class="hero">
+    <div class="profile-container">
+      <img src="img.jpg.jpeg" alt="Chanchal Singha" class="profile-pic">
+    </div>
     <h1>Chanchal Singha</h1>
     <p>BCA Student | Java & Web Developer</p>
-    <div class="links">
-        <a href="https://www.linkedin.com/in/chanchal-singha-186524375" target="_blank">LinkedIn</a>
-        <a href="https://github.com/Chanchal749" target="_blank">GitHub</a>
+    
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/chanchal-singha-186524375" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Chanchal749" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:chanchalsingha765@gmail.com"><i class="fas fa-envelope"></i></a>
     </div>
-</header>
+  </header>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        I am a Bachelor of Computer Applications (BCA) student at Swami Vivekananda University.
-        I am passionate about Java, Web Development, and building real-world projects.
-    </p>
-</section>
-
-<section>
-    <h2>Skills</h2>
-    <ul class="grid">
-        <li>Java</li>
-        <li>Python</li>
-        <li>HTML5, CSS3, JavaScript</li>
-        <li>Bootstrap, React.js</li>
-        <li>MySQL</li>
-        <li>VS Code, Git & GitHub, IntelliJ IDEA</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Projects</h2>
-    <div class="card">
-        <h3>TravelEase – Tourism Management System</h3>
-        <ul>
-            <li>User Registration & Login System</li>
-            <li>Destination & Tour Package Management</li>
-            <li>Admin Panel for Content Management</li>
-            <li>Responsive UI Design</li>
-        </ul>
+  <section class="container">
+    <div class="section-title">
+      <h2>About Me</h2>
     </div>
-</section>
+    <div class="about-card">
+      <p>
+        Hi, I'm Chanchal. I am currently pursuing a <strong>Bachelor of Computer Applications (BCA)</strong> at Swami Vivekananda University. 
+        I am deeply passionate about <strong>Java Programming</strong> and <strong>Full-Stack Web Development</strong>. 
+        I love solving complex problems and building applications that make a difference.
+      </p>
+    </div>
+  </section>
 
-<section>
-    <h2>Education</h2>
-    <p>
-        <strong>Bachelor of Computer Applications (BCA)</strong><br>
-        Swami Vivekananda University, West Bengal<br>
-        2023 – Present
-    </p>
-</section>
+  <section class="container">
+    <div class="section-title">
+      <h2>Technical Skills</h2>
+    </div>
+    <div class="skills-wrapper">
+      <div class="skill-tag"><i class="fab fa-java"></i> Java</div>
+      <div class="skill-tag"><i class="fab fa-python"></i> Python</div>
+      <div class="skill-tag"><i class="fab fa-html5"></i> HTML5</div>
+      <div class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</div>
+      <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
+      <div class="skill-tag"><i class="fab fa-react"></i> React.js</div>
+      <div class="skill-tag"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+      <div class="skill-tag"><i class="fas fa-database"></i> MySQL</div>
+      <div class="skill-tag"><i class="fab fa-git-alt"></i> Git</div>
+      <div class="skill-tag"><i class="fas fa-code"></i> VS Code</div>
+    </div>
+  </section>
 
-<section>
-    <h2>Certifications</h2>
-    <p>
-        Programming in Java – NPTEL (IIT Kharagpur), 2025
-    </p>
-</section>
+  <section class="container">
+    <div class="section-title">
+      <h2>Projects</h2>
+    </div>
+    <div class="project-grid">
+      <div class="project-card">
+        <div class="card-body">
+          <h3><i class="fas fa-plane-departure"></i> TravelEase</h3>
+          <p class="project-sub">Tourism Management System</p>
+          <ul>
+            <li>User Registration & Secure Login</li>
+            <li>Tour Package Management System</li>
+            <li>Admin Dashboard for Content Control</li>
+            <li>Fully Responsive UI Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section>
-    <h2>Languages</h2>
-    <ul class="grid">
-        <li>English – Professional</li>
-        <li>Bengali – Native</li>
-        <li>Hindi – Basic / Conversational</li>
-    </ul>
-</section>
+  <section class="container">
+    <div class="section-title">
+      <h2>Certifications</h2>
+    </div>
+    
+    <div class="cert-card">
+      <div style="display: flex; align-items: center; gap: 15px;">
+        <i class="fas fa-certificate cert-badge-icon"></i>
+        <div class="cert-info">
+          <h3>Programming in Java</h3>
+          <p><strong>NPTEL - IIT Kharagpur (2025)</strong></p>
+          <p>Successfully completed the proctored certification exam with distinction.</p>
+        </div>
+      </div>
+      
+      <a href="https://drive.google.com/file/d/1LSbhb2QzU3OufZLFm-tL76ZFSXre4vuL/view" target="_blank" class="btn-outline">
+        Verify Credential <i class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
+  </section>
 
-<footer>
-    <p>Email: chanchalsingha765@gmail.com</p>
-    <p>Mobile: +91 8391944123</p>
-</footer>
+ <section class="container">
+    <div class="section-title">
+      <h2>Education</h2>
+    </div>
+    <div class="edu-card">
+      <h3>Bachelor of Computer Applications (BCA)</h3>
+      <p style="color: #64748b; margin-bottom: 10px;">Swami Vivekananda University, West Bengal</p>
+      
+      <div class="edu-meta">
+        <span class="edu-year">2023 – Present</span>
+        <span class="cgpa-tag">
+          <i class="fas fa-star"></i> CGPA: 7.9 (Till 5th Sem)
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h3>Let's Connect</h3>
+    <br>
+    <p><i class="fas fa-envelope"></i> chanchalsingha765@gmail.com</p>
+    <p><i class="fas fa-phone"></i> +91 8391944123</p>
+    <p class="footer-copy">© 2026 Chanchal Singha. All Rights Reserved.</p>
+  </footer>
 
 </body>
 </html>
